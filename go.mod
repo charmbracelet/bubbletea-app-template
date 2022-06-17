@@ -1,4 +1,4 @@
-module github.com/caarlos0/bubbletea-app-template
+module github.com/charmbracelet/bubbletea-app-template
 
 go 1.18
 
