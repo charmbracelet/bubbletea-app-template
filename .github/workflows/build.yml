@@ -24,8 +24,8 @@ jobs:
           key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-go-
-      - go mod tidy
-      - go test -v -failfast -race -coverpkg=./... -covermode=atomic -coverprofile=coverage.txt ./...
+      - run: go mod tidy
+      - run: go test -v -failfast -race -coverpkg=./... -covermode=atomic -coverprofile=coverage.txt ./...
       - uses: codecov/codecov-action@v3
         if: matrix.os == 'ubuntu-latest'
         with:
