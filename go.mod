@@ -3,7 +3,7 @@ module github.com/charmbracelet/bubbletea-app-template
 go 1.18
 
 require (
-	github.com/charmbracelet/bubbles v0.11.0
+	github.com/charmbracelet/bubbles v0.12.0
 	github.com/charmbracelet/bubbletea v0.22.0
 	github.com/charmbracelet/lipgloss v0.5.0
 )
