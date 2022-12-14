@@ -4,7 +4,6 @@ on:
   push:
     tags:
       - 'v*'
-  pull_request:
 
 permissions:
   contents: write
@@ -22,7 +21,7 @@ jobs:
         with:
           go-version: ~1.19
           cache: true
-      - uses: goreleaser/goreleaser-action@v3
+      - uses: goreleaser/goreleaser-action@v4
         with:
           version: latest
           args: release --rm-dist
