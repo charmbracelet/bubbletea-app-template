@@ -15,7 +15,6 @@ jobs:
       - uses: actions/setup-go@v4
         with:
           go-version: stable
-          cache: true
       - name: test
         run: |
           go test -v -failfast -race -coverpkg=./... -covermode=atomic -coverprofile=coverage.txt ./...
