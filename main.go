@@ -32,7 +32,7 @@ type model struct {
 	err      error
 }
 
-// initialModel return she initial state for the program.
+// initialModel returns the initial state for the program.
 func initialModel() model {
 	s := spinner.New()
 	s.Spinner = spinner.Dot
