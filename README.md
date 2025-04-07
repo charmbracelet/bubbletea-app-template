@@ -4,11 +4,11 @@ A template repository to create [Bubble Tea][bubbletea] apps.
 
 ## Included
 
-- a sample app that does nothing, so it includes all dependencies:
-	- [Bubble Tea][bubbletea]
-	- [Bubbles][bubbles]
-	- [Lip Gloss][lipgloss]
-- github actions workflows for build, test, lint and release
+- A sample app that does nothing, so it includes all dependencies:
+  - [Bubble Tea][bubbletea]
+  - [Bubbles][bubbles]
+  - [Lip Gloss][lipgloss]
+- GitHub actions workflows for `build`, `test`, `lint` and `release`
 - [GoReleaser][goreleaser] configs
 - [golangci-lint][lint] configs
 
