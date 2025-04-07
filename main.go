@@ -62,7 +62,7 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		return m, nil
 
 	case tea.KeyPressMsg:
-		// Handle keypreses.
+		// Handle keypresses.
 		if key.Matches(msg, m.keymap.quit) {
 			m.quitting = true
 			return m, tea.Quit
