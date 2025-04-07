@@ -56,7 +56,7 @@ func (m model) Init() tea.Cmd {
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
 	case tea.BackgroundColorMsg:
-		// Now that we know the background color we can itinialize the
+		// Now that we know the background color we can initialize the
 		// appropriate styles.
 		m.help.Styles = help.DefaultStyles(msg.IsDark())
 		return m, nil
