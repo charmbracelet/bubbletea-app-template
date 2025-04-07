@@ -1,6 +1,6 @@
 # bubbletea-app-template
 
-A template repository to create [Bubbletea][bubbletea] apps.
+A template repository to create [Bubble Tea][bubbletea] apps.
 
 ## Included
 
