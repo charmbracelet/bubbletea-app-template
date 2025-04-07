@@ -1,3 +1,4 @@
+// Package main contains a Bubble Tea application.
 package main
 
 import (
