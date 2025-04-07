@@ -118,7 +118,7 @@ func (k keymap) FullHelp() [][]key.Binding {
 	return [][]key.Binding{
 		{k.quit, k.interrupt, k.suspend},
 		// If the application grows to the point where we need more
-		// keybidnings, you can add additional columns here.
+		// keybindings, you can add additional columns here.
 	}
 }
 
